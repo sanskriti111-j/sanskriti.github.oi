@@ -1,0 +1,182 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.nav-list{
+    
+    
+    width: 60%;
+    display: flex;
+    
+    align-items:center;
+}
+.nav-list li{
+    list-style:  none;
+    padding: 20px 30px;
+    
+    
+
+}
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+.nav-list li a:hover{
+    
+    text-decoration: none;
+    color: rgb(138, 33, 33);
+
+    
+}
+.rightnav{
+    width: 40%;
+    
+    text-align: right;
+    padding:0 20px;
+}
+#search{
+    padding: 10px;
+    font-size:10px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.logo img{
+    width: 100%;border: 2px solid black;
+}
+.background{
+    background: rgb(0, 0, 0,0.7) url('e cell backgrnd.png');
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 200px;
+    font-size: 50px;
+    max-width: 100%;
+    margin: auto;
+}
+.firstsec{
+    height: 100vh;
+    
+    align-items: center;
+    display: flex;
+}
+.first{
+     max-width:90%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-style: inherit;
+    font-size: 50px;
+}
+.second{
+    width: 20%;
+}
+.second img{
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+    
+}
+.text-big{
+    text-align: center;
+}
+.section{
+    height: 30px;
+    
+    text-align: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.section img{
+    width: 100%;
+}
+.describe{
+    justify-content: center;
+    
+    max-width: 100px;
+    display: flex;
+
+}
+#cards{
+    border: 4px solid black; 
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    width:100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(89, 105, 105);
+    
+}
+.card{
+    width: 30%;
+    height: 500px;
+    box-shadow: 0 0 3px 3px purple;
+    background-color: rgb(161, 208, 239);
+     border-radius:30px ;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid rgb(68, 15, 15);
+    padding: 1px;
+    margin-bottom: 16px;
+}
+.name,.email,.linkedin,.description{
+    font-size: 4px;
+    color: rgb(121, 54, 54);
+}
+.contact{
+    ;
+}
+.images{
+    width: 35%;
+    height: 35%;
+}
+.contact2{
+    background-color: rgb(242, 229, 229);
+    height:400px;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+}
+.form{
+    max-width: 50px;
+    margin: 40px auto;
+}
+.form input{
+    margin: 7px 0;
+    padding: 6px 7px;
+    
+    font-size: 20px;
+    border: 2px solid rgb(23, 22, 22);
+    border-radius: 6px;
+}
+.btn2{
+    background-color: rgb(60, 45, 45);
+}
